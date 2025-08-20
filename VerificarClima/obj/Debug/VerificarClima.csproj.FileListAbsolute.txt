@@ -1,0 +1,11 @@
+C:\Users\gabriel.acgloria\source\repos\VerificarClima\VerificarClima\bin\Debug\VerificarClima.exe.config
+C:\Users\gabriel.acgloria\source\repos\VerificarClima\VerificarClima\bin\Debug\VerificarClima.exe
+C:\Users\gabriel.acgloria\source\repos\VerificarClima\VerificarClima\bin\Debug\VerificarClima.pdb
+C:\Users\gabriel.acgloria\source\repos\VerificarClima\VerificarClima\obj\Debug\VerificarClima.csproj.AssemblyReference.cache
+C:\Users\gabriel.acgloria\source\repos\VerificarClima\VerificarClima\obj\Debug\VerificarClima.Form1.resources
+C:\Users\gabriel.acgloria\source\repos\VerificarClima\VerificarClima\obj\Debug\VerificarClima.Properties.Resources.resources
+C:\Users\gabriel.acgloria\source\repos\VerificarClima\VerificarClima\obj\Debug\VerificarClima.csproj.GenerateResource.cache
+C:\Users\gabriel.acgloria\source\repos\VerificarClima\VerificarClima\obj\Debug\VerificarClima.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.acgloria\source\repos\VerificarClima\VerificarClima\obj\Debug\VerificarClima.exe
+C:\Users\gabriel.acgloria\source\repos\VerificarClima\VerificarClima\obj\Debug\VerificarClima.pdb
+C:\Users\gabriel.acgloria\source\repos\VerificarClima\VerificarClima\obj\Debug\VerificarClima.exe.config
