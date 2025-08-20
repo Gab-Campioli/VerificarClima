@@ -1,78 +1,74 @@
-# 🧮 Calculadora de IMC - Windows Forms (C#)
+# 🌡️ Termômetro Visual em C# - Windows Forms
 
-Este projeto foi desenvolvido em **C# utilizando Windows Forms**, com o objetivo de criar uma **calculadora de IMC (Índice de Massa Corporal)** com uma interface gráfica simples, intuitiva e funcional.
+Este projeto é uma aplicação simples feita em **C# com Windows Forms**, com o objetivo de praticar o uso de componentes como `PictureBox`, `TextBox`, `Label`, entre outros.
 
-O programa permite ao usuário inserir seu **peso** e sua **altura**, e ao clicar no botão **"Calcular"**, o sistema realiza o cálculo do IMC e exibe tanto o **valor do IMC** quanto a **classificação correspondente** (como "Peso normal", "Sobrepeso", etc.). Também conta com validações de segurança e a opção de realizar um novo cálculo.
-
----
-
-## ✅ Funcionalidades
-
-- Campo para inserir o **peso** (em kg)
-- Campo para inserir a **altura** (em metros)
-- Botão **"Calcular"** para executar o cálculo do IMC
-- Exibição do **valor do IMC**
-- Exibição da **classificação do IMC**
-- **Validação** para impedir campos vazios ou com dados inválidos
-- Botão **"Calcular Novamente"** para limpar os campos e permitir novo cálculo
+A aplicação simula um **termômetro**: ao digitar uma temperatura no campo de texto, uma **imagem representando o clima atual** é exibida automaticamente.
 
 ---
 
-## 🔒 Validações de Segurança
+## 🔧 Funcionalidades
 
-- Ambos os campos (**peso** e **altura**) são obrigatórios.
-- O programa exibe mensagens de erro se algum campo estiver vazio ou com um valor inválido.
-- Apenas valores numéricos positivos são aceitos.
-
----
-
-## 🧠 Cálculo do IMC
-
-A fórmula utilizada para o cálculo é:
-
-IMC = peso / (altura * altura)
-
-O resultado é exibido com duas casas decimais.
+- ✅ Entrada de temperatura através de um `TextBox`
+- ✅ Exibição de **imagem** relacionada ao clima (frio, ameno, quente) em um `PictureBox`
+- ✅ **Validação da entrada**, impedindo que letras ou caracteres especiais sejam inseridos no campo de temperatura
+- ✅ Um `Label` exibe a **data atual** ao iniciar o programa
+- ✅ Interface simples e intuitiva para fins didáticos
 
 ---
 
-## 📊 Classificação do IMC
+## 🖼️ Prévia da Interface
 
-| IMC (kg/m²)       | Classificação           |
-|------------------|-------------------------|
-| Menor que 18,5   | Abaixo do peso          |
-| 18,5 – 24,9      | Peso normal             |
-| 25,0 – 29,9      | Sobrepeso               |
-| 30,0 – 34,9      | Obesidade grau I        |
-| 35,0 – 39,9      | Obesidade grau II       |
-| 40,0 ou mais     | Obesidade grau III      |
+Veja abaixo uma prévia da interface da aplicação em execução:
+
+![Prévia do Programa](print1.jpg)
 
 ---
 
-## 🖼️ Imagens do Programa
+## 🧠 Lógica de Funcionamento
 
-### 📌 Tela Inicial
-![Tela Inicial](print1.png)
+- **Temperatura ≤ 10°C** → Imagem de **clima frio**
+- **Temperatura entre 11°C e 25°C** → Imagem de **clima ameno**
+- **Temperatura > 25°C** → Imagem de **clima quente**
 
-### 📌 Resultado do Cálculo
-![Resultado do IMC](print2.png)
-
----
-
-## 🚀 Como Executar
-
-1. Abra o projeto no **Visual Studio**.
-2. Compile a solução com `Ctrl + Shift + B`.
-3. Execute o programa pressionando `F5` ou clicando em **Iniciar**.
-4. Insira o peso e a altura nos campos correspondentes.
-5. Clique em **"Calcular"** para ver o resultado.
-6. Clique em **"Calcular Novamente"** para reiniciar os campos e fazer um novo cálculo.
+A imagem exibida é atualizada automaticamente com base na temperatura digitada.
 
 ---
 
-## 📝 Licença
+## 🔒 Validação de Entrada
 
-Este projeto está licenciado sob a **MIT License**. Livre para uso pessoal e educacional.
+A aplicação possui uma verificação que **impede a entrada de letras ou símbolos** no campo de temperatura. Somente números são aceitos, o que evita erros no funcionamento do programa.
 
 ---
 
+## 📅 Exibição da Data Atual
+
+Ao executar o programa, a data do dia atual é exibida automaticamente em um `Label`, utilizando o formato padrão do sistema:
+
+## 💻 Tecnologias Utilizadas
+
+- **C#**
+- **.NET Framework**
+- **Windows Forms (WinForms)**
+- Componentes usados: `PictureBox`, `TextBox`, `Label`, `Button`
+
+---
+
+## 📁 Arquivos Incluídos
+
+- `Form1.cs` – Lógica principal da aplicação
+- `Program.cs` – Ponto de entrada
+- `print1.jpg` – Imagem de prévia do programa (inserida neste repositório)
+- Imagens adicionais de clima (devem ser adicionadas ao projeto)
+
+---
+
+## 📌 Observações
+
+- As imagens devem ser adicionadas ao diretório do projeto e configuradas com a propriedade `Copy to Output Directory` como **Copy if newer**
+- Este projeto tem fins **educacionais** para aprendizado de interfaces gráficas em C#
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido como parte de um exercício de prática em C# e Windows Forms.
